@@ -99,6 +99,14 @@ input {
   display: block;
   margin: 0 auto;
 }
+input,
+input:active,
+input:focus,
+input:focus-within,
+input:hover,
+input:visited {
+  font-size: 16px !important;
+}
 ul {
   list-style: none;
   display: flex;
