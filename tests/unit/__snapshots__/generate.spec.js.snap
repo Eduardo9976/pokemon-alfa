@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Generate /> should render correctly component 1`] = `
+<li><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="charizard">
+  <div class="infos">
+    <p>charizard</p>
+    <p>#6</p>
+  </div>
+</li>
+`;

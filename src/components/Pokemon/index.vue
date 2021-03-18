@@ -8,7 +8,7 @@
       mode="in-out"
       class="animate__animated animate__zoomInUp"
     >
-      <ul>
+      <ul id="container">
         <template v-for="(pokemon, index) in computedPokedex" :key="index">
           <Generate :name="pokemon.name" :id="pokemon.id" />
         </template>

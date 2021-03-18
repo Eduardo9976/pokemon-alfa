@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> should render correctly component 1`] = `
+<div class="error">
+  <div><img src="" alt="Atenção">
+    <p> Ops...Serviço Indisponível no momento. Por favor, tente novamente mais tarde. </p>
+  </div>
+</div>
+`;
