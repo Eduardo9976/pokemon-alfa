@@ -61,9 +61,7 @@ export default {
         )
         const JSONresponse = await response.json()
         JSONresponse.results.forEach(pokemon => {
-          const id = `${pokemon.url
-            .replace('https://pokeapi.co/api/v2/pokemon/', '')
-            .replace('/', '')}`
+          const id = `${pokemon.url.replace(/(.{34})(\d{1,})(\/)/g, '$2')}`
           state.pokedex.push({ name: pokemon.name, id })
         })
       } catch {
